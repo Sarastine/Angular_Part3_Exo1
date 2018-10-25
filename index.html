@@ -1,0 +1,22 @@
+<!--Dans le fichier html fourni, convertir le texte de la variable firstSentence en majuscules et celui de secondSentence en minuscules.-->
+<!DOCTYPE html>
+<html lang="fr" ng-app="app" ng-controller="testCtrl">
+  <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/Ex1Ang.css"></li>
+	<title>Angular Partie 3 Exercice 1</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+	<script src="assets/js/script.js"></script>
+  </head>
+  <body>
+	<div class="container-fluid">
+		<h1>Angular Js</h1>
+		<h2>Partie 3 - Exercice 1</h2>
+		<div id="stoneDecoration" class="col-xs-12 offset-md-1 col-md-10 offset-xl-2 col-xl-8">
+			{{firstSentence | uppercase}}
+			{{secondSentence | lowercase}}
+		</div>
+	</div>
+</body>
+</html>
